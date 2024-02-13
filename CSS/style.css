@@ -1,0 +1,31 @@
+.header {
+    background-color: aqua;
+}
+
+.logo {
+    background-color: blanchedalmond;
+}
+
+.nav {
+    background-color: brown;
+    align-items: right;
+    justify-content: right;
+    
+}
+
+section {
+    background-color: aliceblue;
+}
+
+.pop-statement {
+    background-color: aliceblue;
+    font-weight: 800;
+}
+
+article {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-containter1 {
+    background-color: blue;
+}
