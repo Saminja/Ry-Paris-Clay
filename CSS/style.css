@@ -26,12 +26,9 @@ body {
 }
 
 #menu {
-    
 margin: 0px;  
 flex-direction: row;
 justify-content: space-between;
-
-
 }
 
 .parent {
@@ -40,7 +37,6 @@ justify-content: space-between;
     object-fit: cover;
     align-items: center;
     justify-content: center;
-    
 }
 
 #hero{
@@ -48,8 +44,6 @@ justify-content: space-between;
     width: 79%;
     object-fit: cover;
     padding:5px;
-    
-    
 }
 
 .whitebox {
@@ -64,8 +58,6 @@ justify-content: space-between;
 #one {
     height: 200px;
     width:250px;
-   
-    
 }
 
 #two {
@@ -101,6 +93,8 @@ justify-content: space-between;
 .img-container {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .check {
@@ -110,7 +104,6 @@ justify-content: space-between;
     align-items: center;
     margin: 10px;
     
-
 }
 
 .gray {
@@ -121,6 +114,7 @@ justify-content: space-between;
     height: 40%;
     width: 100%;
     background-color: #dadfea;
+    padding: 10px;
 
 }
 
@@ -136,22 +130,15 @@ justify-content: space-between;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 20px
-
-   
+    padding: 15px
 }
-
-
 
 .footer {
     display: flex;
     background-color: #f2a536;
-    object-position: right;
-    justify-content: right;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-   
 }
 
 #burger {
@@ -163,4 +150,48 @@ justify-content: space-between;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#burger{
+    height: 400px;
+    width: 79%;
+    object-fit: cover;
+    padding:5px;
+}
+
+.top {
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    width: 65%;
+    background-color: #dadfea;
+    padding: 10px;
+    
+}
+
+.recipe{
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.row {
+    background-color: #dadfea;
+}
+
+.review {
+    align-items: center;
+    justify-content: center;
 }
