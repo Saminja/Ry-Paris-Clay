@@ -1,31 +1,117 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 .header {
     background-color: aqua;
+    /* align-items: right;
+    justify-content: right; */
+    width: 100%;
+    height: 30px;
+
+}
+.container {
+    display: flex;
+    background-color: #f2a536;
+    justify-content: space-between;
+    width: 100vw;
 }
 
 .logo {
-    background-color: blanchedalmond;
+    margin: 10px;
 }
 
-.nav {
-    background-color: brown;
-    align-items: right;
-    justify-content: right;
+#menu {
     
+margin: 10px;   
+
 }
 
 section {
-    background-color: aliceblue;
+    display: flex;
+    color: blue;
+    height: 20%;
+    width: 20%;
+ 
+
 }
 
-.pop-statement {
-    background-color: aliceblue;
+#hero{
+    height: 600px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#one {
+    height: 125px;
+}
+
+#two {
+    height: 120px;
+
+}
+
+#three {
+    height: 100px;
+}
+
+#pop-statement {
+    background-color: white;
     font-weight: 800;
 }
 
 article {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.img-containter1 {
-    background-color: blue;
+.img-containter {
+    display: flex;
+
+
+}
+.check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.gray {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    width: 100%;
+    background-color: #dadfea;
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+   
+    display: flex;
+    background-color: #f2a536;
+    justify-content: space-between;
+    width: 100vw;
+   
+}
+
+#burger {
+    height: 970px;
+    width: 100vw;
 }
