@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     background-color: #f2a536;
     justify-content: space-between;
+    
    
 }
 
@@ -25,18 +26,33 @@ body {
     margin: 10px;
 }
 
-#menu {
-margin: 0px;  
-flex-direction: row;
-justify-content: space-between;
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
 }
 
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.menu li {
+    text-decoration: none;
+    padding: 10px;
+    padding: 10px 20px;
+}
+
+
 .parent {
-    height: 400px;
-    width: 100vw;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
+    background-image: url(/images/bengal-burger.jpg);
+    width: 100%; /* Set width of the div */
+    height: 300px; /* Set height of the div */
+    background-size: cover; /* Cover the entire background with the image */
+    background-position: center; 
 }
 
 #hero{
@@ -50,9 +66,9 @@ justify-content: space-between;
     position: absolute;
     background-color: white;
     z-index: 2; 
-    padding: 10px;
-    top: 350px;
-    left: 350px;
+    padding: 15px;
+  left: 500px;
+  top: 280px;
 }
 
 #one {
@@ -135,10 +151,10 @@ justify-content: space-between;
 
 .footer {
     display: flex;
-    background-color: #f2a536;
-    width: 100%;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: #f2a536;
+    padding: 20px;
 }
 
 #burger {
@@ -166,7 +182,7 @@ justify-content: space-between;
     font-weight: bold;
     width: 65%;
     background-color: #dadfea;
-    padding: 10px;
+    padding: 30px;
     
 }
 
@@ -195,3 +211,35 @@ justify-content: space-between;
     align-items: center;
     justify-content: center;
 }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .time {
+    
+    background-color:#dadfea;
+    margin: 0 auto; 
+    
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+ 
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+  
+  
+
