@@ -1,0 +1,47 @@
+commit 09f52d536e897917402993d93a3cbc24da3e49fc
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Sun Feb 18 14:14:23 2024 -0700
+
+    moved nav bar spacing/padding, recentered whitebox, cleaned up last details.
+
+commit aa37b7c61b7a82f94c6c67942f65e27f8114b091
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Fri Feb 16 18:41:34 2024 -0700
+
+    changed the image src to a background img in CSS for burger, made nave bars horizontal, added review screenshot, and finished time table with resources.
+
+commit d71dc3f7eb1195a74c51dc22c42a25d0acc085bd
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Fri Feb 16 13:35:11 2024 -0700
+
+    added txt and base to recipe. fine tuning css and rest of project now.
+
+commit 2a0831691f5552e5b642750af1dbdde677b2d749
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Fri Feb 16 10:21:51 2024 -0700
+
+    added picture borders, description whiteboxes, moved spacing etc
+
+commit 4368419749b84c36ad8b0747a7b951dd2b84f5c4
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Fri Feb 16 08:02:04 2024 -0700
+
+    corrected layout, flex, began recipe
+
+commit 567108444db33d45e86618db57b1ea06f9a03421
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Tue Feb 13 10:24:26 2024 -0700
+
+    setting up layout, establishing class names; began css
+
+commit a95fe41c1f5d6db96920ebe45d971d3388db9045
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Wed Jan 24 10:17:08 2024 -0700
+
+    added pictures, created folders and files
+
+commit eb1c8014ab23922712653e02ae5e5b1283f5917e
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Wed Jan 24 09:48:12 2024 -0700
+
+    Initial commit
